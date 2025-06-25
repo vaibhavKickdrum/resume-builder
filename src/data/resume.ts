@@ -1,109 +1,109 @@
 export const resumeData = {
   personal: {
-    name: "Alex Johnson",
-    title: "Senior Full Stack Developer",
-    email: "alex.johnson@email.com",
-    phone: "+1 (555) 123-4567",
-    location: "San Francisco, CA",
-    linkedin: "linkedin.com/in/alexjohnson",
-    github: "github.com/alexjohnson",
-    website: "alexjohnson.dev",
-    summary: "Passionate full stack developer with 5+ years of experience building scalable web applications. Specialized in React, Node.js, and cloud architecture. Love turning complex problems into simple, beautiful solutions."
+    name: "Vaibhav Sharma",
+    title: "Software Engineer",
+    email: "vaibhav.sharma@email.com",
+    phone: "+91 98765 43210",
+    location: "Bangalore, India",
+    linkedin: "linkedin.com/in/vaibhav-sharma",
+    github: "github.com/vaibhav-sharma",
+    website: "vaibhav-sharma.dev",
+    summary: "Passionate software engineer with expertise in full-stack development, cloud technologies, and modern web frameworks. Experienced in building scalable applications and leading technical initiatives."
   },
   
   experience: [
     {
-      company: "TechCorp Inc.",
-      position: "Senior Full Stack Developer",
+      company: "Tech Solutions Pvt Ltd",
+      position: "Senior Software Engineer",
       duration: "2022 - Present",
-      location: "San Francisco, CA",
+      location: "Bangalore, India",
       achievements: [
-        "Led development of a microservices architecture serving 1M+ users",
-        "Improved application performance by 40% through optimization",
-        "Mentored 3 junior developers and established code review processes",
-        "Implemented CI/CD pipeline reducing deployment time by 60%"
+        "Led development of microservices architecture serving 500K+ users",
+        "Improved application performance by 35% through code optimization",
+        "Mentored 2 junior developers and established best practices",
+        "Implemented automated testing reducing deployment issues by 50%"
       ]
     },
     {
-      company: "StartupXYZ",
-      position: "Full Stack Developer",
+      company: "Innovation Labs",
+      position: "Software Engineer",
       duration: "2020 - 2022",
-      location: "Remote",
+      location: "Pune, India",
       achievements: [
-        "Built the entire frontend using React and TypeScript",
-        "Developed RESTful APIs with Node.js and Express",
-        "Integrated payment systems and third-party services",
-        "Collaborated with design team to implement pixel-perfect UIs"
+        "Developed responsive web applications using React and Node.js",
+        "Built RESTful APIs handling 10K+ requests per minute",
+        "Collaborated with cross-functional teams on product development",
+        "Optimized database queries improving response time by 40%"
       ]
     },
     {
-      company: "Digital Agency",
-      position: "Frontend Developer",
+      company: "StartupHub",
+      position: "Junior Software Developer",
       duration: "2019 - 2020",
-      location: "New York, NY",
+      location: "Mumbai, India",
       achievements: [
-        "Created responsive websites for 20+ clients",
-        "Reduced page load times by 50% through optimization",
-        "Implemented modern CSS frameworks and methodologies",
-        "Worked closely with UX/UI designers and clients"
+        "Created dynamic web interfaces using modern JavaScript frameworks",
+        "Participated in agile development processes and code reviews",
+        "Implemented responsive designs for mobile and desktop platforms",
+        "Contributed to open-source projects and technical documentation"
       ]
     }
   ],
 
   skills: {
     technical: [
-      { name: "JavaScript/TypeScript", level: 95 },
-      { name: "React/Next.js", level: 90 },
-      { name: "Node.js/Express", level: 85 },
-      { name: "Python/Django", level: 80 },
-      { name: "AWS/Cloud", level: 75 },
-      { name: "Docker/Kubernetes", level: 70 }
+      { name: "JavaScript/TypeScript", level: 90 },
+      { name: "React/Next.js", level: 85 },
+      { name: "Node.js/Express", level: 80 },
+      { name: "Python/Django", level: 75 },
+      { name: "AWS/Cloud Services", level: 70 },
+      { name: "MongoDB/PostgreSQL", level: 75 }
     ],
-    tools: ["Git", "VS Code", "Figma", "Postman", "Jira", "Slack"],
-    soft: ["Leadership", "Problem Solving", "Communication", "Team Collaboration"]
+    tools: ["Git", "Docker", "Jenkins", "VS Code", "Postman", "Jira", "Figma"],
+    soft: ["Problem Solving", "Team Leadership", "Communication", "Project Management"]
   },
 
   education: [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University of California, Berkeley",
+      degree: "Bachelor of Technology in Computer Science",
+      school: "Indian Institute of Technology (IIT)",
       year: "2019",
-      gpa: "3.8/4.0"
+      gpa: "8.5/10.0"
     }
   ],
 
   projects: [
     {
-      name: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React frontend and Node.js backend",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      link: "https://github.com/alexjohnson/ecommerce",
+      name: "E-Learning Platform",
+      description: "Comprehensive online learning platform with video streaming and interactive features",
+      technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
+      link: "https://github.com/vaibhav-sharma/elearning-platform",
       highlights: [
-        "Implemented shopping cart and checkout system",
-        "Added admin dashboard for inventory management",
-        "Integrated payment processing with Stripe"
+        "Built real-time video streaming capabilities",
+        "Implemented user authentication and course management",
+        "Integrated payment gateway for course purchases"
       ]
     },
     {
-      name: "Task Management App",
-      description: "Collaborative project management tool with real-time updates",
-      technologies: ["Next.js", "Socket.io", "PostgreSQL", "Prisma"],
-      link: "https://github.com/alexjohnson/taskmanager",
+      name: "Inventory Management System",
+      description: "Full-stack inventory tracking system for small businesses",
+      technologies: ["Vue.js", "Express.js", "PostgreSQL", "Redis"],
+      link: "https://github.com/vaibhav-sharma/inventory-system",
       highlights: [
-        "Real-time collaboration with WebSocket integration",
-        "Drag-and-drop task management interface",
-        "Team permissions and role-based access"
+        "Created automated stock alerts and reporting",
+        "Built responsive dashboard with data visualization",
+        "Implemented barcode scanning functionality"
       ]
     },
     {
-      name: "Weather Dashboard",
-      description: "Beautiful weather application with location-based forecasts",
-      technologies: ["React", "TypeScript", "OpenWeather API", "Chart.js"],
-      link: "https://github.com/alexjohnson/weather-dashboard",
+      name: "Weather Analytics App",
+      description: "Real-time weather monitoring application with predictive analytics",
+      technologies: ["React Native", "Python", "FastAPI", "Machine Learning"],
+      link: "https://github.com/vaibhav-sharma/weather-analytics",
       highlights: [
-        "Interactive weather maps and charts",
-        "Location-based weather alerts",
-        "Responsive design for all devices"
+        "Developed cross-platform mobile application",
+        "Integrated multiple weather APIs for accurate forecasting",
+        "Implemented ML models for weather prediction"
       ]
     }
   ]

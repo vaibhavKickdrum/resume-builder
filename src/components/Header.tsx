@@ -25,8 +25,13 @@ const Header: React.FC = () => {
   };
 
   const downloadResume = () => {
-    // In a real application, this would download the actual PDF
-    alert('Resume download functionality would be implemented here');
+    // Create a link to download the PDF
+    const link = document.createElement('a');
+    link.href = '/vaibhav-resume.pdf';
+    link.download = 'Vaibhav_Sharma_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   const navItems = [
@@ -47,7 +52,7 @@ const Header: React.FC = () => {
             onClick={() => scrollToSection('hero')}
             className="text-xl font-bold text-slate-800 hover:text-blue-600 transition-colors"
           >
-            Alex Johnson
+            Vaibhav Sharma
           </button>
 
           {/* Desktop Navigation */}
